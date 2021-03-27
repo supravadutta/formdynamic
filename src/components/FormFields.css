@@ -1,0 +1,21 @@
+input[type="text"]{
+    padding: 4px 8px;
+    font-size: 1.1rem;
+}
+.fieldContainer{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+}
+option{
+    padding: 4px 8px;
+    font-size: 1.01rem;
+}
+textarea{
+    margin: 8px;
+}

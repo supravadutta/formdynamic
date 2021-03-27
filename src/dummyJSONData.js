@@ -1,0 +1,65 @@
+export const FormConfigJson = {
+    formName: "New Registration Form",
+    formDesc: "This is form description",
+    data: [
+        {
+            name: "CandidateName",
+            placeholder: "Write name..",
+            label: "Candidate Name",
+            required: true,
+            type: "text",
+        },
+        {
+            name: "AccountNumber",
+            placeholder: "A/C No..",
+            label: "Account Number",
+            required: true,
+            type: "text",
+        },
+        {
+            name: "gender",
+            placeholder: "Gender",
+            label: "Gender",
+            required: true,
+            type: "select",
+            options: ["Male", "Female","others"],
+        },
+        {
+            name: "AccountType",
+            placeholder: "Account Type",
+            label: "Account Type",
+            required: false,
+            type: "select",
+            options: ["Assets", "Liabilities"],
+        },
+        {
+            name: "Description",
+            placeholder: "Description",
+            label: "Short Description",
+            required: false,
+            type: "textarea",
+            cols: 30,
+            rows: 8,
+        },
+        {
+            name: "ChooseFavTopics",
+            placeholder: "Choose Your Fav Topics",
+            label: "Choose Your Fav. Topics",
+            required: false,
+            type: "multipleSelect",
+            options: [
+                { value: "education", label: "Education" },
+                { value: "technology", label: "Technology" },
+                {value: "share Market",label: "Share Market"},
+                { value: "politics", label: "Politics"}
+            ],
+        },
+        {
+            name: "above18",
+            value: "yes",
+            type: "checkbox",
+            label: "Are You above 18 years ?",
+            require: true,
+        },
+    ],
+};

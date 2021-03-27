@@ -1,0 +1,27 @@
+.formHead{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.formDesc{
+    color: rgb(151, 151, 151);
+}
+.formContainer{
+    display: inline-block;
+    border: 1px solid rgb(194, 40, 255);
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px rgba(125, 112, 131, 0.363);
+}
+
+input[type="submit"]{
+    background-color: blueviolet;
+    border: none;
+    padding: 8px 30px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    box-shadow: 0 8px 12px #eee;
+}
